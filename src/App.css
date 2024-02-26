@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it takes at least the full height of the viewport */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-content {
+  flex-grow: 1; /* This makes sure the content area expands to fill available space */
 }
 
 @media (prefers-reduced-motion: no-preference) {

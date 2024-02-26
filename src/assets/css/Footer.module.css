@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .socialLinks {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialLinks a {
+    margin: 0 15px;
+    color: #40E0D0; /* Turquoise color for icons */
+  }
+  
+  .nameLink {
+    color: #40E0D0; /* Turquoise color for the name link */
+  }
+  
+  /* The size of icons displayed */
+  .fa-2x { /* You can change to fa-3x, fa-4x, etc., for larger icons */
+    font-size: 2em; /* Adjust size as needed */
+  }
+  
